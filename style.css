@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #F5F8FA;
+    width: 100%;
+}
+
+/*Header*/
+
+.menu {
+    background-color: white;
+    width: 100%;
+    height: 96px;
+    position: fixed;
+    z-index: 1;
+}
+
+.divmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 160px;
+}
+
+.setaelogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo1 {
+    width: 146px;
+    height: 36px;
+    margin-left: 160px;
+    margin-top: 26px;
+}
+
+i {
+    color: #A0ACB2;
+    font-size: 20px;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #DCE2E6;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 26px;
+    margin-left: 40px;
+}
+
+.seta:hover {
+    border-color: #A0ACB2;
+}
+
+.teresopolis {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 35px;
+    color: #A0ACB2;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #115D8C;
+    background-color: #DDE9F0;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+.login:hover {
+    background-color: #cddae2;
+}
+
+.tere {
+    width: 100%;
+    margin-top: -300px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.imgbox {
+    background-image: url(./img/imagem1.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: end;
+    width: 45%;
+    height: 100%;
+    position: fixed;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-left: 15%;
+    font-size: 54px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #08509F;
+    width: 305px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 15%;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #617480;
+    font-size: 16px;
+    width: 305px;
+}
+
+.title2 {
+    margin-left: 15%;
+    color: #08509F;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.line {
+    width: 305px;
+    height: 0px;
+    margin-left: 15%;
+    border: 1px solid #DCE2E6;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 305px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.boxcard {
+    background-color: white;
+    width: 72px;
+    height: 74px;
+    border: 1px solid #DCE2E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    width: 305px;
+    margin-top: 5px;
+    margin-left: 15%;
+}
+
+.day {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E20512;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.subtitle {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+    color: #08509F;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+}
+
+.wppbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    background-color: #51B853;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.wppbox:hover {
+    background-color: #377c38;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.text2 {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 41px;
+}
+
+.wpplogo {
+    width: 23px;
+    height: 23px;
+    margin-top: 8px;
+    margin-right: 7px;
+}
+
+.divtelefone {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.telefone {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #E20512;
+}
+
+.numero {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #08509F;
+}
+
+.divtextosendereco {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 100px;
+    width: 305px;
+}
+
+.enderecotext {
+    color: #08509F;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.mapstext {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    color: #A0ACB2;
+    font-size: 12px;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 9px;
+    text-decoration: underline;
+}
+
+.mapstext:hover {
+    color: #70787e;
+    cursor: pointer;
+}
+
+.map {
+    width: 305px;
+    height: 135px;
+    margin-left: 15%;
+    margin-top: 20px;
+    border-radius: 16px;
+    background-image: url(./img/map.png);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #DCE2E6;
+}
+
+.cep {
+    margin-left: 15%;
+    margin-top: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #A0ACB2;
+}
+
+.avaliacao {
+    margin-top: 50px;
+}
+ 
+.headavaliacoes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+
+.avaliacaotext {
+    color: #08509F;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.grade {
+    float: right;
+    margin-left: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.star {
+    margin-left: 130px;
+    margin-top: 3px;
+}
+
+.clienteboladocard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clientefoto {
+    background-image: url(./img/clientebolado1.png);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.clientefoto2 {
+    background-image: url(./img/cliente2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.clientefoto3 {
+    background-image: url(./img/cliente3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.nomecliente {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #617480;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.star2 {
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.grade2 {
+    float: right;
+    margin-left: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.clientedescricao {
+   margin-left: 10px; 
+   margin-top: 3px;
+   color: #617480;
+   font-family: 'Heebo', sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+.rodape {
+    font-size: 10px;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
